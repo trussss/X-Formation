@@ -1,0 +1,27 @@
+body{
+	background:	#c0deed!important;
+}
+table{    
+	/* top: 30px; */
+	background: #d7eaf1!important;
+	border: 15px solid white;
+    table-layout: fixed;
+    width: 200px;
+}
+td {
+    height: 40px;
+	color: #191280;
+    font-size: 12pt;
+}
+th {
+height: 100px;
+}
+th, td {
+    text-align: center!important;
+     border: 4px solid #f7f7f7;
+    overflow: hidden;
+}
+.selectField:hover, 
+.orderName:hover{
+	background: #d8d8d8;
+}

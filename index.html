@@ -1,4 +1,26 @@
-45643
-asdfsafsaf
-asdfsafsafxcb
-xcvb
+<!DOCTYPE html>
+<html lang="en" ng-app="xFapp">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="container">
+
+	<ul class="nav nav-tabs">
+	  <li><a href="#/xFormation">GitHub forks table</a></li>
+	  <li><a href="#/contributors">Contributors table</a></li>
+	</ul>
+   
+	<div ng-view></div>
+
+	<script src="./controller/main.js"></script>
+	<script src="./directive/directive.js"></script>
+	<script src="./service/service.js"></script>
+</body>
+
+</html>

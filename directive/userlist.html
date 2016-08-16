@@ -1,0 +1,9 @@
+<table class="col-md-6">
+	<tr>
+		<th class="orderName" ng-repeat="type in attr" ng-click="sortOrder(type)">Sort by {{type}} </th>	
+	</tr>
+	<tr class="selectField" ng-repeat="user in userData | orderBy: order">
+		<td ng-repeat="key in attr"> {{ user[key] }} </td>
+	</tr>
+</table>
+
