@@ -1,6 +1,0 @@
-<div  class="col-md-6">
-	<span ng-repeat="type in attr" ng-click="sortOrder(type)>{{type}}</span>
-	<div ng-repeat="user in userData | orderBy: order" ">
-		<span ng-repeat="key in attr"> {{ user[key] }} </span>
-	</div>
-</div>
