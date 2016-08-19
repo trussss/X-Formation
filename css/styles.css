@@ -26,6 +26,10 @@ th, td {
 	background: #d8d8d8;
 
 }
+.th-hover:hover{
+	background: #d8d8d8;
+
+}
 
 .orderName.active:before {
 	transform: rotate(-180deg);
