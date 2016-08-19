@@ -31,7 +31,7 @@ th, td {
 	transform: rotate(-180deg);
 }
 
-.orderName:before {
+.orderNameDown:before {
 	transition: 400ms;
     content: "";
     display: inline-block;
@@ -40,6 +40,18 @@ th, td {
     border: 10px solid transparent;
     border-top-color: #337ab7;
 	border-bottom-width: 0;
+    position: relative;
+    margin-right: 10px;
+}
+.orderNameUp:before {
+	transition: 400ms;
+    content: "";
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #337ab7;
+	border-top-width: 0;
     position: relative;
     margin-right: 10px;
 }

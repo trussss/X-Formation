@@ -1,6 +1,6 @@
 <table class="table table-hover">
 	<tr>
-		<th class="orderName" ng-repeat="type in attr" ng-click="sortOrder(type)">Sort by {{type}} </th>	
+		<th ng-repeat="type in attr" ng-click="sortOrder(type);" class='{{order[0]=="-"||currentType!=type?"orderNameDown":"orderNameUp"}}'>Sort by {{type}} </th>	
 	</tr>
 	<tr class="selectField" ng-repeat="user in userData | orderBy: order">
 		<td ng-repeat="key in attr"> {{ user[key] }} </td>
