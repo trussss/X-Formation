@@ -15,7 +15,7 @@ td {
     font-size: 12pt;
 }
 th {
-height: 57px;
+	height: 57px;
 }
 th, td {
     text-align: center;
@@ -24,17 +24,13 @@ th, td {
 .selectField:hover, 
 .orderName:hover{
 	background: #d8d8d8;
-
 }
 .th-hover:hover{
 	background: #d8d8d8;
-
 }
-
 .orderName.active:before {
 	transform: rotate(-180deg);
 }
-
 .orderNameDown:before {
 	transition: 400ms;
     content: "";

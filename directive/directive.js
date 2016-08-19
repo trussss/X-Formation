@@ -17,11 +17,3 @@ xFapp.directive("userLists", function() {
 	}
   };
 });
-
-xFapp.directive('arrowState', function () {
-  return {
-    link: function($scope, element) {      
-		element.addClass("orderNameDown");
-      }
-    };
-});
